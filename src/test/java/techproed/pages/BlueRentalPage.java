@@ -37,6 +37,23 @@ public class BlueRentalPage {
     @FindBy (xpath = "//*[.='OK']")
     public WebElement okButton;
 
+    @FindBy (xpath = "//*[text()='Bad credentials']")
+    public WebElement bad_credentials;
+
+    @FindBy (xpath = "//*[text()='email must be a valid email']")
+    public WebElement emailErrorMessage;
+
+    @FindBy (xpath = "//select[@name='car']")
+    public WebElement selectCar;
+
+    @FindBy (xpath = "//input[@name='pickUpLocation']")
+    public WebElement pickUpLocation;
+
+    @FindBy (xpath = "//button[@type='submit']")
+    public WebElement reservationButton;
+
+    @FindBy (xpath = "//*[text()='Please first login']")
+    public WebElement pleaseFirstLogin ;
 
 
 }

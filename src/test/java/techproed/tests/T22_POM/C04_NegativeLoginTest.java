@@ -39,7 +39,7 @@ public class C04_NegativeLoginTest {
 
         Assert.assertTrue(blueRentalPage.negatifLoginVerify.isDisplayed());
 
-        Driver.closeDriver();
+     //   Driver.closeDriver();
 
 
 
