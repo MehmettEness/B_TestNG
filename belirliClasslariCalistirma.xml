@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Batch189">
+    <test name="Smoke Test">
+        <classes>
+            <class name="techproed.tests.T20_annotations_softassert.C02_Priority"></class>
+            <class name="techproed.tests.T21_POM.C01_DriverIlkTest"></class>
+        </classes>
+    </test>
+</suite>

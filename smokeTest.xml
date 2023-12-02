@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Batch189">
+    <test name="Smoke Test">
+        <packages>
+            <package name="techproed.tests.T20_annotations_softassert"></package>
+            <package name="techproed.tests.T19_annotations"></package>
+        </packages>
+    </test>
+</suite>
