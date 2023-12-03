@@ -10,7 +10,7 @@ public class ConfigReader {
 
 
 
-    public static String getProperty(String key){ //verilen key in valuesini retur et diyoruz.
+    public static String getProperty(String key){ //verilen key in valuesini return et diyoruz.
 
         Properties properties = new Properties();
 

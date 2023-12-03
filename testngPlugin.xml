@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ACER/IdeaProjects/Batch189TestNG/src/test/java/techproed/tests/T19_annotations">
+        <classes>
+            <class name="techproed.tests.T19_annotations.C01_Notasyonlar">
+                <methods>
+                    <include name="test01"/>
+                    <include name="test02"/>
+                    <include name="test03"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
+<!--verbdosyası fose = konsolda gördüğümüz detay mesajlarını verir-->
+        <!--bu xml ile>setting>market>testng yazarak progrram yükledik. Sonra ideyi kapatıp açtık T19 sağ tık yapıp creaate tsetng xml seçtik-->
+<!--sonra proje adını seçip reload from disk seçtik ve bu dosya otomatik olaraka karşımıza geldi-->

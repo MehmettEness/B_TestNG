@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Batch189">
+    <test name="Smoke Test">
+        <groups>
+            <run>
+                <include name="smoke"></include>
+            </run>
+        </groups>
+        <packages>
+            <package name="techproed.tests.T21_POM"></package>
+        </packages>
+    </test>
+</suite>
+<!--T21 de belirli classlarla Test yanına group "smoke yazarak" belli classları çalıştırmış olduk-->
+
+<!--<include name="smoke"></include> include dahil demek-->
+<!--<exclude name="smoke"></exclude> exclude hariç demek-->
