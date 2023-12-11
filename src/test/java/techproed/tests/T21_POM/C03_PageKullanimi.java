@@ -12,6 +12,8 @@ public class C03_PageKullanimi {
         //https://opensource-demo.orangehrmlive.com/web/index.php/auth/login adrese gidelim
         Driver.getDriver().get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 
+
+
         //kullaniciAdi, kullaniciSifre, submitButton elementlerini locate edelim login olalım
 
         //kullanici=Admin
