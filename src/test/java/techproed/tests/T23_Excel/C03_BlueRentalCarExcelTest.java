@@ -22,7 +22,7 @@ public class C03_BlueRentalCarExcelTest {
         ExcelReader excelReader = new ExcelReader(dosyaYolu , dosyaIsmi);
 
 
-        for (int i = 1; i <= 7 ; i++) {
+        for (int i = 1; i <= excelReader.rowCount()-1 ; i++) {
 
            String email = excelReader.getCellData(i , 0);
            String password = excelReader.getCellData(i , 1);

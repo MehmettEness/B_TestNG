@@ -11,7 +11,7 @@ import techproed.utilities.DataProviderUtils;
 import techproed.utilities.Driver;
 
 public class C04_DataProviderUtils {
-    @Test(dataProvider = "positiveTestData", dataProviderClass = DataProviderUtils.class)
+    @Test(dataProvider = "negativeTestData", dataProviderClass = DataProviderUtils.class)
     public void test01(int age) {
 
         //https://dataprovider.netlify.app/ adresine gidelim

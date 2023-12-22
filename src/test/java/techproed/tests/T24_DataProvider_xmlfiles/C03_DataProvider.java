@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import techproed.pages.BlueRentalPage;
 import techproed.utilities.ConfigReader;
 import techproed.utilities.Driver;
+import techproed.utilities.ReusableMethods;
 
 public class C03_DataProvider {
     /*
@@ -42,6 +43,7 @@ public class C03_DataProvider {
         //       Dataprovider Kullanarak verilen email ve password bilgileri ile login olalım
         blueRentalPage.email.sendKeys(email);
         blueRentalPage.password.sendKeys(password, Keys.ENTER);
+        ReusableMethods.bekle(2);
 
         //       Sayfayı kapatalım
         Driver.closeDriver();
